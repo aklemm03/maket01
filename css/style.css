@@ -419,6 +419,7 @@ a:hover {
     margin-left: 0;
     margin-right: auto;
     flex-shrink: 0;
+    src: url(../assets/img);
 }
 
 @media screen and (min-width: 767px) {
@@ -435,6 +436,7 @@ a:hover {
         margin-right: 25px;
         border-radius: 6px;
         margin-bottom: 40px;
+        src: url(../assets/img);
     }
 }
 
@@ -445,6 +447,7 @@ a:hover {
     }
     
     .info__photo img {
+        src: url(../assets/img);
         align-self: flex-start;
         width: 531px;
         height: 307px;
@@ -455,8 +458,7 @@ a:hover {
     }
 }
 
-.img  {
-    src: url(../assets/img);
+
 
 
 }
