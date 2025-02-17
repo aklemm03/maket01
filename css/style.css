@@ -454,3 +454,9 @@ a:hover {
         margin-bottom: 49px;
     }
 }
+
+.img  {
+    src: url(../assets/img);
+
+
+}
