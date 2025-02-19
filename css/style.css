@@ -144,7 +144,7 @@ a:hover {
     display: none;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .header__info {
         gap: 42px;
     }
@@ -270,7 +270,7 @@ a:hover {
 
 
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
    .page-main__title {
     padding-left: 24px;
    } 
@@ -294,7 +294,7 @@ a:hover {
     padding-left: 16px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .navigation__list {
         display: flex;
         padding-top: 24px;
@@ -316,7 +316,7 @@ a:hover {
 
 .navigation__link,
 .navigation__link--active {
-    display: inline-block;
+    display: flex;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 16px;
@@ -363,12 +363,13 @@ a:hover {
     box-sizing: content-box;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
    .info__text-content {
     margin-left: 24px;
    }
    
     .info__text {
+        max-width: 490px;
         height: 160px;
         line-height: 20px;
         padding-top: 8px;
@@ -414,15 +415,17 @@ a:hover {
     transform: rotate(135deg);
 }
 
-.info__photo img {
+.info__photo img  {
     display: block;
+    max-width: 100%;
+    height: auto;
     margin-left: 0;
     margin-right: auto;
     flex-shrink: 0;
-    src: url(../assets/img);
+    
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .info {
         display: flex;
         flex-direction: row;
@@ -436,7 +439,6 @@ a:hover {
         margin-right: 25px;
         border-radius: 6px;
         margin-bottom: 40px;
-        src: url(../assets/img);
     }
 }
 
@@ -447,7 +449,6 @@ a:hover {
     }
     
     .info__photo img {
-        src: url(../assets/img);
         align-self: flex-start;
         width: 531px;
         height: 307px;
@@ -458,7 +459,3 @@ a:hover {
     }
 }
 
-
-
-
-}
